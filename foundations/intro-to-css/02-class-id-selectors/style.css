@@ -2,3 +2,8 @@
     background-color: #c27a8e;
     font-family: "Verdana","DejaVu Sans", sans-serif;
 }
+
+#id1 {
+    color: hsl(214, 100%, 50%);
+    font-size: 36px;
+}
