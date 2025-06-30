@@ -1,6 +1,6 @@
 .cool-class {
     background-color: #c27a8e;
-    font-family: "Verdana","DejaVu Sans", sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 #id1 {
@@ -9,7 +9,7 @@
 }
 
 .cooler-class {
-    font-size: 36px;
+    font-size: 24px;
 }
 
 #id2 {
