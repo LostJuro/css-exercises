@@ -32,9 +32,9 @@ body {
   background: royalblue;
   box-sizing: border-box;
   font-size: 24px;
-  display: flex;
-  flex-shrink: 0;
   padding: 16px;
+  flex-shrink: 0;
+  
 }
 
 a {
@@ -50,17 +50,25 @@ ul {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  display: flex;
   padding: 48px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin: auto;
   flex-wrap: wrap;
+  flex-basis: 20%;
+  min-height: 200px;
 }
 
 .container {
   display: flex;
-  flex-wrap: wrap; 
+  flex: 1;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .middle {
   display: flex;
   flex: 1;
+  
 }
